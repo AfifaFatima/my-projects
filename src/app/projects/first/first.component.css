@@ -1,0 +1,80 @@
+.grid {
+    width: 130%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    transform: translate(30%, 7%);
+    padding: 10px;
+    
+}
+
+#side-div {
+    background: url(../../../assets/images/i1.jpg);
+    width: 240px;
+    height: 550px;
+    border-radius: 5px;
+    background-repeat: no-repeat;   
+}
+.inform{
+    margin: 2%;
+    padding-left: 7%;
+}
+
+.form-controll {
+    display: grid;
+}
+
+input[type=text], [type = email], [type=phonenumber]{
+    width: 110%;
+    padding: 10px;
+    border: 1px solid #e9e6e6;
+    border-radius: 6px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+.bttn{
+    width: 80%;
+    text-align: right;
+    margin: 15% 0 0 30%;
+    
+}
+ol {
+    max-width: 350px;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 40px;
+  }
+  ol li {
+    margin: 1.4rem;
+    counter-increment: my-awesome-counter;
+    position: relative;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter);
+    color: #fff;
+    font-size: 1.5rem;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 6;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+  }
+  .multiline-item::first-line {
+    color: #e7e1e1; /* Change this to the desired color for the first line */
+  }
+  .multiline-item::after {
+   font-weight: bold;
+    color: #fff; /* Change this to the desired color for the second line */
+  }
