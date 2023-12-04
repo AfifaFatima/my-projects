@@ -1,0 +1,11 @@
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+}
+.valign-center{
+    display: inline-flex;
+    align-items: center;
+}
+button{
+    margin-left: 2px;
+}

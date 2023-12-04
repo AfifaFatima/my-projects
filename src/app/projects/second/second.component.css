@@ -1,0 +1,25 @@
+.bcont {
+    width: 100%;
+}
+
+h1 {
+    font-size: 57px;
+    font-weight: bold;
+}
+
+.content {
+    margin: 120px 0px;
+    width: 50%;
+    padding: 20px 120px;
+}
+
+.content2 {
+    width: 50%;
+}
+
+.img {
+    height: 500px;
+    background-image: url(../../../assets/images/d1.jpg);
+    width: 500px;
+    background-size: 100% 100%;
+}
