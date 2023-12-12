@@ -1,0 +1,31 @@
+.cont{
+    display: flex;
+    width: 100%;
+    background-image: url(../../../assets/images/i2.jpg);
+}
+h1{
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-size: 22px;
+}
+.bttn{
+    justify-content: space-evenly;
+}
+.buttn{
+    background-color: #fff;
+    color: #5c5c5c;
+    height: 50px;
+    border: none;
+    width: 260px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.buttn:hover    {
+    background-color: #464646;
+    color: #fff;
+}

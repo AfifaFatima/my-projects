@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
+import { WebheaderComponent } from './website/webheader/webheader.component';
 import { SecondComponent } from './projects/second/second.component';
 const routes: Routes = [
-  {path:"app-second", component: SecondComponent},
-  {path:"", redirectTo:"app-second", pathMatch:"full"}
+  {path:"app-webheader", component: WebheaderComponent},
+  {path:"", redirectTo:"app-webheader", pathMatch:"full"}
 ];
 
 @NgModule({

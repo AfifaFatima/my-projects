@@ -1,0 +1,15 @@
+.logo img{
+   height: 100%;
+   width: 30%;
+}
+.nav{
+    background-color: #fff;
+    width: 90rem;
+    height: 80px;
+}
+ a{
+    text-decoration: none;
+    padding: 20px;
+    color: #000;
+    font-size: 17px;
+}

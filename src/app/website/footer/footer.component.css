@@ -1,0 +1,43 @@
+.fcontent{
+background-color: #fff;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0084D6;
+}
+.hcont{
+    color: #fff;
+}
+.footercont{
+    height: 350px;
+    background-image: url(../../../assets/images/footerbackground.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+.buttn{
+    background-color: #fff;
+    color: #5c5c5c;
+    height: 50px;
+    border: none;
+    width: 260px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.buttn:hover    {
+    background-color: #464646;
+    color: #fff;
+}
+input{
+    border: none;
+    width: 60%;
+}
+input::after{
+    border: #fff;
+}
+li{
+    list-style-type: none;
+    padding: 5px 0px;
+    font-size: 17px;
+}
